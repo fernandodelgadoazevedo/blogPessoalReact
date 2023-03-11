@@ -1,0 +1,23 @@
+.box1{
+    background-color: #3F51B5;
+    height: 35px;
+}
+
+.box2{
+    background-color: #303F9F; 
+    height: 35px;
+    color: white !important;
+}
+
+.redes{
+    font-size: 22px !important;
+    color: white !important; 
+    margin-right: 5px !important;
+}
+
+
+.textos { 
+   font-size: 5px !important; 
+   color: rgb(255, 255, 255) !important;
+   text-decoration: none !important;
+}
