@@ -43,7 +43,8 @@ function CadastroPost() {
         id: 0,
         titulo: '',
         texto: '',
-        tema: null
+        tema: null,
+        data: ''
     })
 
     useEffect(() => { 

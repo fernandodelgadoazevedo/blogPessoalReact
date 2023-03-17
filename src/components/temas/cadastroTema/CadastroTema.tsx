@@ -72,14 +72,32 @@ function CadastroTema() {
                         'Authorization': token
                     }
                 })
-                alert('Tema atualizado com sucesso');
+                //alert('Tema atualizado com sucesso');
+                toast.success('Tema atualizado com sucesso',{
+                    position: 'top-right',
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    draggable: false,
+                    theme: "colored",
+                    progress: undefined,
+                });
             } else {
                 post(`/temas`, tema, setTema, {
                     headers: {
                         'Authorization': token
                     }
                 })
-                alert('Tema cadastrado com sucesso');
+                //alert('Tema cadastrado com sucesso');
+                toast.success('Tema cadastrado com sucesso',{
+                    position: 'top-right',
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    draggable: false,
+                    theme: "colored",
+                    progress: undefined,
+                });
             }
             back()
     

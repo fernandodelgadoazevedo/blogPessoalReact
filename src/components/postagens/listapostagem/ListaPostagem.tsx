@@ -57,6 +57,13 @@ function ListaPostagem() {
                 <Typography variant="body2" component="p">
                   {post.tema?.descricao}
                 </Typography>
+                <Typography variant="body2" component="p">
+                Postado em:{' '}
+                {new Intl.DateTimeFormat(undefined, {
+                  dateStyle: 'full',
+                  timeStyle: 'medium',
+                }).format(new Date(post.data))}
+              </Typography>
               </CardContent>
               <CardActions>
                 <Box display="flex" justifyContent="center" mb={1.5}>
